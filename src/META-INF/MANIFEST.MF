@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: bluecove-2.1.1.jar
+
