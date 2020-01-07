@@ -18,7 +18,7 @@ public class BluetoothAdapter {
         services.forEach((k,v)-> {
             System.out.println(v.get(0));
 
-               if (v.get(0).startsWith("Ceiling Light"))  {
+               if (v.get(0).startsWith("Ceiling lamp"))  {
                    try {
                        CeilingLight ceilingLight = new CeilingLight(v.get(0),v.get(1),"C_LAMP");
                        devices.add(ceilingLight);
